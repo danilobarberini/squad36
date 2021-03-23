@@ -6,7 +6,6 @@
            UXs:</br>
            Lidiane Fernandes</br>
            Suelen Amaral</br>
-          
            </br>
            Devs:</br>
            Andrea Matsunaga</br>
