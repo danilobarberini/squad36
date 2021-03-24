@@ -12,6 +12,7 @@
            Danilo Barberini</br>
            René Monteiro</br>
            Vinicius Moura</br>
+           Jhol Moreira Mendanha</br>
            </br>
           
  </strong></h2></p>
