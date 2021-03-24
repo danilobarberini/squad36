@@ -10,7 +10,6 @@
            Devs:</br>
            Andrea Matsunaga</br>
            Danilo Barberini</br>
-           René Monteiro</br>
            Vinicius Moura</br>
            Jhol Moreira Mendanha</br>
            </br>
