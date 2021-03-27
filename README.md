@@ -8,7 +8,6 @@
            Suelen Amaral</br>
            </br>
            Devs:</br>
-           Andrea Matsunaga</br>
            Danilo Barberini</br>
            Vinicius Moura</br>
            Jhol Moreira Mendanha</br>
