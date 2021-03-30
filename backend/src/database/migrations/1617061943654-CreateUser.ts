@@ -21,14 +21,6 @@ export class CreateUser1617053360916 implements MigrationInterface {
                         type: "varchar"
                     },
                     {
-                        name: "school_name",
-                        type: "varchar"
-                    },
-                    {
-                        name: "year",
-                        type: "number"
-                    },
-                    {
                         name: "registration",
                         type: "varchar"
                     },
@@ -36,24 +28,6 @@ export class CreateUser1617053360916 implements MigrationInterface {
                         name: "created_at",
                         type: "timestamp",
                         default: "now()"
-                    }
-                ],
-                foreignKeys: [
-                    {
-                        name: "FKSchool",
-                        referencedTableName: "schools",
-                        referencedColumnNames: ["name"],
-                        columnNames: ["school_name"],
-                        onDelete: "CASCADE",
-                        onUpdate: "CASCADE"
-                    },
-                    {
-                        name: "FKYear",
-                        referencedTableName: "years",
-                        referencedColumnNames: ["value"],
-                        columnNames: ["year"],
-                        onDelete: "CASCADE",
-                        onUpdate: "CASCADE"
                     }
                 ]
             }

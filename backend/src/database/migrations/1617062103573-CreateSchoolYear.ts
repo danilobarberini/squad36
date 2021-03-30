@@ -1,11 +1,11 @@
 import { MigrationInterface, QueryRunner, Table } from "typeorm";
 
-export class CreateSchool1617053367580 implements MigrationInterface {
+export class CreateUserSchool1617060820841 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.createTable(
             new Table({
-                name: "schools",
+                name: "schoolYear",
                 columns: [
                     {
                         name: "id",
@@ -13,40 +13,38 @@ export class CreateSchool1617053367580 implements MigrationInterface {
                         isPrimary: true
                     },
                     {
-                        name: "name",
+                        name: "school_name",
                         type: "varchar"
                     },
                     {
-                        name: "address",
-                        type: "varchar"
-                    },
-                    {
-                        name: "year",
+                        name: "value",
                         type: "number"
-                    },
-                    {
-                        name: "created_at",
-                        type: "timestamp",
-                        default: "now()"
                     }
                 ],
                 foreignKeys: [
                     {
                         name: "FKYear",
-                        referencedTableName: "years",
+                        referencedTableName: "year",
                         referencedColumnNames: ["value"],
-                        columnNames: ["year"],
+                        columnNames: ["value"],
                         onDelete: "CASCADE",
                         onUpdate: "CASCADE"
                     },
+                    {
+                        name: "FKSchool",
+                        referencedTableName: "school",
+                        referencedColumnNames: ["school_name"],
+                        columnNames: ["school_name"],
+                        onDelete: "CASCADE",
+                        onUpdate: "CASCADE"
+                    }
                 ]
-            }
-            )
-        )
+            })
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.dropTable("schools");
+        await queryRunner.dropTable("schoolYear");
     }
 
 }

@@ -1,30 +1,26 @@
 import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn } from "typeorm";
-import { Year } from "./year";
 import { v4 as uuid } from "uuid";
+import { Year } from "./year";
+import { User } from "./user";
 
-
-@Entity("schools")
-class School {
-
+@Entity("userYear")
+class UserYear {
     @PrimaryColumn()
     readonly id: string;
 
     @Column()
-    school_name: string;
+    user_id: string;
+
+    @ManyToOne(() => User)
+    @JoinColumn({ name: "user_id" })
+    user: User
 
     @Column()
-    address: string;
-
-    @Column()
-    year: number;
+    year: string;
 
     @ManyToOne(() => Year)
     @JoinColumn({ name: "value" })
     value: Year;
-
-    @CreateDateColumn()
-    created_at: Date;
-
     constructor() {
         if (!this.id) {
             this.id = uuid();
@@ -32,4 +28,4 @@ class School {
     }
 }
 
-export { School };
+export { UserYear };

@@ -17,20 +17,6 @@ class User {
     phone: string;
 
     @Column()
-    school_name: string;
-
-    @ManyToOne(() => School)
-    @JoinColumn({ name: "name" })
-    school: School;
-
-    @Column()
-    year: number;
-
-    @ManyToOne(() => Year)
-    @JoinColumn({ name: "value" })
-    value: Year;
-
-    @Column()
     registration: string;
 
     @CreateDateColumn()
