@@ -25,9 +25,35 @@ export class CreateUser1617053360916 implements MigrationInterface {
                         type: "varchar"
                     },
                     {
+                        name: "school_name",
+                        type: "varchar"
+                    },
+                    {
+                        name: "year",
+                        type: "varchar"
+                    },
+                    {
                         name: "created_at",
                         type: "timestamp",
                         default: "now()"
+                    }
+                ],
+                foreignKeys: [
+                    {
+                        name: "fk_user_school",
+                        referencedTableName: "schools",
+                        referencedColumnNames: ["school_name"],
+                        columnNames: ["school_name"],
+                        onDelete: "CASCADE",
+                        onUpdate: "CASCADE"
+                    },
+                    {
+                        name: "fk_user_year",
+                        referencedTableName: "years",
+                        referencedColumnNames: ["name"],
+                        columnNames: ["year"],
+                        onDelete: "CASCADE",
+                        onUpdate: "CASCADE"
                     }
                 ]
             }

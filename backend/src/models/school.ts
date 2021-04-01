@@ -1,29 +1,30 @@
-import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn } from "typeorm";
-import { Year } from "./year";
+import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
+
 import { v4 as uuid } from "uuid";
+import { User } from "./user";
+
+
 
 
 @Entity("schools")
 class School {
 
-    @PrimaryColumn()
+    @PrimaryGeneratedColumn()
     readonly id: string;
 
     @Column()
     school_name: string;
 
-    @Column()
+    @Column({ nullable: false })
     address: string;
 
     @Column()
-    year: number;
-
-    @ManyToOne(() => Year)
-    @JoinColumn({ name: "value" })
-    value: Year;
+    year: string;
 
     @CreateDateColumn()
     created_at: Date;
+
+
 
     constructor() {
         if (!this.id) {

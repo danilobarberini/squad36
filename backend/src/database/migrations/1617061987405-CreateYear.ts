@@ -8,8 +8,8 @@ export class CreateYear1617053373489 implements MigrationInterface {
                 name: "years",
                 columns: [
                     {
-                        name: "value",
-                        type: "number",
+                        name: "id",
+                        type: "varchar",
                         isPrimary: true
                     },
                     {
@@ -17,22 +17,10 @@ export class CreateYear1617053373489 implements MigrationInterface {
                         type: "varchar"
                     },
                     {
-                        name: "kit_id",
+                        name: "items",
                         type: "varchar"
                     }
-                ],
-                foreignKeys: [
-                    {
-                        name: "FKKit",
-                        referencedTableName: "kit",
-                        referencedColumnNames: ["id"],
-                        columnNames: ["kit_id"],
-                        onDelete: "CASCADE",
-                        onUpdate: "CASCADE"
-                    }
                 ]
-
-
             }
             )
         )

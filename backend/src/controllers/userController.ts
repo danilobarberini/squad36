@@ -4,10 +4,11 @@ import { UsersRepository } from "../repositories/usersRepository";
 import * as yup from "yup";
 
 
+
 class UserController {
 
     async create(request: Request, response: Response) {
-        const { name, phone, registration, created_at } = request.body;
+        const { name, phone, registration, school_name, year_name, created_at } = request.body;
 
         const schema = yup.object().shape({
             name: yup.string().required(),
@@ -17,9 +18,8 @@ class UserController {
 
         const usersRepository = getCustomRepository(UsersRepository);
 
-
         const user = usersRepository.create({
-            name, phone, registration, created_at
+            name, phone, registration, school_name, year_name, created_at
         })
 
         await usersRepository.save(user);
