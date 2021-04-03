@@ -10,6 +10,7 @@ body {
   font-family: roboto;
 }
 
+<<<<<<< HEAD
 /* Menu principal */
 .text-logo {
   position: absolute;
@@ -44,6 +45,8 @@ body {
   text-transform: uppercase;
 }
 
+=======
+>>>>>>> 07afaec061b36dcfa03560dbe594f170d0d9c31c
 .logo {
   position: absolute;
   width: 67px;
@@ -51,6 +54,7 @@ body {
   left: 135px;
   top: 32px;
 }
+<<<<<<< HEAD
 
 nav {
   height: 80px;
@@ -317,3 +321,5 @@ a:hover {
   opacity: 1;
   right: 0;
 }
+=======
+>>>>>>> 07afaec061b36dcfa03560dbe594f170d0d9c31c
