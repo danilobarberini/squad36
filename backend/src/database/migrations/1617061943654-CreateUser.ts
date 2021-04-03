@@ -25,16 +25,22 @@ export class CreateUser1617053360916 implements MigrationInterface {
                         type: "varchar"
                     },
                     {
+                        name: "school_name",
+                        type: "varchar"
+                    },
+                    {
+                        name: "year",
+                        type: "varchar",
+                    },
+                    {
                         name: "created_at",
                         type: "timestamp",
                         default: "now()"
                     }
                 ]
             }
-            )
-        )
+            ))
     }
-
     public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.dropTable("users");
     }

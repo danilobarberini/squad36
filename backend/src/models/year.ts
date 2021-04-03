@@ -1,19 +1,16 @@
-import { Column, OneToOne, Entity, JoinColumn, PrimaryColumn } from "typeorm";
-import { Kit } from "./kit";
-
+import { Column, Entity, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity("years")
 class Year {
 
-    @PrimaryColumn()
-    value: number;
+    @PrimaryGeneratedColumn()
+    readonly id: string;
 
-    @Column()
+    @Column({ nullable: false })
     name: string;
 
-    @OneToOne(() => Kit)
-    @JoinColumn({ name: "kit" })
-    kit: Kit;
+    @Column()
+    items: string;
 }
 
 export { Year };

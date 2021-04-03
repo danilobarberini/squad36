@@ -1,25 +1,17 @@
 import { Request, Response } from "express";
 import { getCustomRepository } from "typeorm";
 import { UsersRepository } from "../repositories/usersRepository";
-import * as yup from "yup";
 
 
 class UserController {
 
     async create(request: Request, response: Response) {
-        const { name, phone, registration, created_at } = request.body;
-
-        const schema = yup.object().shape({
-            name: yup.string().required(),
-            phone: yup.string().required(),
-            registration: yup.string().required()
-        })
+        const { name, phone, registration, school_name, year, created_at } = request.body;
 
         const usersRepository = getCustomRepository(UsersRepository);
 
-
         const user = usersRepository.create({
-            name, phone, registration, created_at
+            name, phone, registration, school_name, year, created_at
         })
 
         await usersRepository.save(user);

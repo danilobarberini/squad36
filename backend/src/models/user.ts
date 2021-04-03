@@ -1,23 +1,26 @@
-import { Column, CreateDateColumn, Entity, JoinColumn, PrimaryColumn, ManyToOne } from "typeorm";
-import { School } from "./school";
-import { Year } from "./year";
+import { Column, CreateDateColumn, Entity, JoinColumn, PrimaryColumn, ManyToMany, ManyToOne, OneToMany, JoinTable, EntityMetadata } from "typeorm";
 import { v4 as uuid } from "uuid";
 
 
 @Entity("users")
 class User {
-
     @PrimaryColumn()
     readonly id: string;
 
-    @Column()
+    @Column({ nullable: false })
     name: string;
 
-    @Column()
+    @Column({ nullable: false })
     phone: string;
 
-    @Column()
+    @Column({ nullable: false })
     registration: string;
+
+    @Column()
+    school_name: string;
+
+    @Column()
+    year: string;
 
     @CreateDateColumn()
     created_at: Date;
