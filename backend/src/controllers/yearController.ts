@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { getCustomRepository } from "typeorm";
-import { YearsRepository } from "../repositories/yearsRepository";
+import { getCustomRepository, getRepository } from "typeorm";
+import { YearRepository } from "../repositories/yearRepository";
 
 
 
@@ -10,21 +10,21 @@ class YearController {
     async create(request: Request, response: Response) {
         const { id, name, items } = request.body;
 
-        const yearsRepository = getCustomRepository(YearsRepository);
+        const yearRepository = getCustomRepository(YearRepository);
 
-        const year = yearsRepository.create({
+        const year = yearRepository.create({
             id, name, items
         })
 
-        await yearsRepository.save(year);
+        await yearRepository.save(year);
 
         return response.status(201).json(year);
     }
 
     async show(request: Request, response: Response) {
-        const yearsRepository = getCustomRepository(YearsRepository);
+        const yearRepository = getCustomRepository(YearRepository);
 
-        const all = await yearsRepository.find();
+        const all = await yearRepository.find();
 
         return response.json(all);
     }

@@ -1,10 +1,4 @@
-import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
-
-import { v4 as uuid } from "uuid";
-import { User } from "./user";
-
-
-
+import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity("schools")
 class School {
@@ -12,25 +6,11 @@ class School {
     @PrimaryGeneratedColumn()
     readonly id: string;
 
-    @Column()
-    school_name: string;
-
     @Column({ nullable: false })
-    address: string;
+    name: string;
 
     @Column()
-    year: string;
-
-    @CreateDateColumn()
-    created_at: Date;
-
-
-
-    constructor() {
-        if (!this.id) {
-            this.id = uuid();
-        }
-    }
+    address: string;
 }
 
 export { School };

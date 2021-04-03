@@ -1,7 +1,5 @@
 import { Column, Entity, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
 
-
-
 @Entity("years")
 class Year {
 
@@ -11,9 +9,8 @@ class Year {
     @Column({ nullable: false })
     name: string;
 
-    @Column({ nullable: false })
+    @Column()
     items: string;
-
 }
 
 export { Year };
