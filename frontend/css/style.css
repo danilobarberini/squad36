@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+}
+
+.logo {
+  position: absolute;
+  width: 67px;
+  height: 78px;
+  left: 135px;
+  top: 32px;
+}
