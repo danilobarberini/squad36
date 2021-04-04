@@ -4,10 +4,17 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: roboto;
+  position: relative;
+  width: 1440px;
+  height: 3903px;
+  overflow-y: scroll;
+
+  background: #FFFFFF;
 }
 
 /* Menu principal */
@@ -116,8 +123,16 @@ a:hover {
 
 /* Background menu principal */
 .men {
-  width: 100%;
-  height: 839px;
+  
+  position: absolute;
+  width: 1440px;
+  height: 894px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #F9A826 0%, rgba(255, 255, 255, 0) 20.31%),
+  linear-gradient(180deg, rgba(252, 172, 50, 0.6) 0%, rgba(255, 255, 255, 0) 25.52%),
+  linear-gradient(89.91deg, rgba(81, 80, 76, 0.5) 25.08%, rgba(128, 126, 121, 0) 56.43%), 
+  url(-7I5Z7zPXGY.png);
 }
 
 /* Texto da imagem inicial */
