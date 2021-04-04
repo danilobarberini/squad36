@@ -426,3 +426,15 @@ a:hover {
   opacity: 1;
   right: 0;
 }
+
+.footer{
+  
+
+position: absolute;
+width: 1440px;
+height: 225px;
+left: 0px;
+top: 1209px;
+
+background: #51504C;
+}
