@@ -9,12 +9,12 @@ const userController = new UserController();
 const yearController = new YearController();
 const schoolController = new SchoolController();
 
-router.post("/users", userController.create);
-router.get("/users", userController.show);
+router.post("/cadastrar-usuario", userController.create);
+router.get("/cadastrar-usuario", userController.show);
 router.post("/years", yearController.create);
 router.get("/years", yearController.show);
-router.post("/schools", schoolController.create);
-router.get("/schools", schoolController.show);
+router.post("/cadastrar-escola", schoolController.create);
+router.get("/cadastrar-escola", schoolController.show);
 
 
 export { router };
