@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Cadastro da Escola</title>
+</head>
+
+<body class="body-cadastro">
+    <nav>
+        <div class="cabecalho">
+            <img src="img/Logo.svg" class="logo-form" />
+            <p class="text-logo-branco">Fazendo o Bem</p>
+            <div class="menu">
+                <ul>
+                    <li><a href="landing-page.html">HOME</a></li>
+                    <li><a href="#">QUEM SOMOS</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+
+            </div>
+    </nav>
+    <div class="body-box"></div>
+    <div class="corpo-form">
+        <div class="subtitulo">
+            <p>
+            <h1>Torne-se um ponto de distribuição</p>
+            </h1></br>E ajude milhares de alunos!</p>
+        </div>
+        <img class="mochila" src="img/Ilustraçãoescola.svg">
+        <div class="form">
+            <p>
+            <form id="schoolForm">
+                <label for="userCNPJ">CNPJ</label><br>
+                <input type="text" id="CNPJ"><br>
+                <label for="razao">Razão Social</label><br>
+                <input type="text" id="razao"><br>
+                <label for="fantasia">Nome Fantasia</label><br>
+                <input type="text" id="fantasia"><br>
+                <label for="address">Endereço</label><br>
+                <input type="text" id="address"></input><br>
+                <label for="kit">Escolha o kit que precisa</label><br>
+                <select id="kit"></select>
+                <label for="qt">Quantidade de Kits</label><br>
+                <input type="number" id="qt" min="1" max="20"></input><br>
+                <label for="phone">Telefone</label><br>
+                <input type="text" id="phone"></input><br>
+                <input type="submit" id="enviar">Enviar</input>
+            </form>
+            </p>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+<script src="./scripts/cadastrar-escola.js"></script>
+<footer>
+    <span class="foot-box"></span>
+    <div class="direitos">
+        © 2021 Squad 36 - Programa de Formação FCamara<br>Todos os direitos reservados
+    </div>
+    <div class="socialmedia"><img src="./img/social mediasm.svg"></div>
+</footer>
+
+</html>

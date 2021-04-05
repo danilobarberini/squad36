@@ -3,7 +3,7 @@ import { Column, Entity, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
 @Entity("years")
 class Year {
 
-    @PrimaryGeneratedColumn()
+    @PrimaryColumn()
     readonly id: string;
 
     @Column({ nullable: false })

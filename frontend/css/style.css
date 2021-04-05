@@ -4,10 +4,25 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  
 }
 
 body {
-  font-family: "Roboto";
+  font-family: roboto;
+  position: relative;
+  width: 1440px;
+  height: 3903px;
+  overflow-y: scroll;
+
+  background: #FFFFFF;
+}
+
+.body-cadastro{
+  position: relative;
+width: 1440px;
+height: 1431px;
+
+background: #FFFFFF;
 }
 
 /* Menu principal */
@@ -26,6 +41,89 @@ body {
   text-align: center;
   color: #ffffff;
 }
+.text-logo-branco {
+  position: absolute;
+width: 272px;
+height: 48px;
+left: 221px;
+top: 45px;
+
+font-family: Pecita;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+
+
+color: #DE8A0D;
+}
+.subtitulo{
+position: absolute;
+width: 372px;
+height: 176px;
+left: 202px;
+top: 303px;
+}
+
+.cadastro-aluno{
+  position: absolute;
+width: 151px;
+height: 24px;
+left: 943px;
+top: 922px;
+
+/* H6 - Regular */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: center;
+}
+
+.mochila{
+  position: absolute;
+width: 418px;
+height: 313px;
+left: 156px;
+top: 537px;
+}
+
+.logo-form {
+position: absolute;
+width: 67px;
+height: 78px;
+left: 135px;
+top: 32px;
+
+background: url("/frontend/img/Logo.svg");
+}
+
+.corpo-form {
+  position: absolute;
+width: 1340px;
+height: 789px;
+left: 50px;
+top: 227px;
+
+border: 1px solid #CCCAC2;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+} 
+
+.body-box{
+  position: absolute;
+width: 1340px;
+height: 789px;
+left: 50px;
+top: 227px;
+}
+
 .menu {
   position: absolute;
   width: 970px;
@@ -123,18 +221,10 @@ a:hover {
   height: 894px;
   left: 0px;
   top: 0px;
-  background: linear-gradient(180deg, #f9a826 0%, rgba(255, 255, 255, 0) 20.31%),
-    linear-gradient(
-      180deg,
-      rgba(252, 172, 50, 0.6) 0%,
-      rgba(255, 255, 255, 0) 25.52%
-    ),
-    linear-gradient(
-      89.91deg,
-      rgba(81, 80, 76, 0.5) 25.08%,
-      rgba(128, 126, 121, 0) 56.43%
-    ),
-    url(-7I5Z7zPXGY.png);
+  background: linear-gradient(180deg, #F9A826 0%, rgba(255, 255, 255, 0) 20.31%),
+  linear-gradient(180deg, rgba(252, 172, 50, 0.6) 0%, rgba(255, 255, 255, 0) 25.52%),
+  linear-gradient(89.91deg, rgba(81, 80, 76, 0.5) 25.08%, rgba(128, 126, 121, 0) 56.43%), 
+  url(-7I5Z7zPXGY.png);
 }
 
 /* Texto da imagem inicial */
@@ -311,6 +401,7 @@ a:hover {
   border-radius: 10px;
   transition: all 0.5s;
   cursor: pointer;
+  border-color: transparent;
 }
 
 .button span {
@@ -338,228 +429,38 @@ a:hover {
   right: 0;
 }
 
-.como-fun {
-  /* Como funciona */
+.direitos {
+position: absolute;
+left: 35.07%;
+right: 32.5%;
+top: 96.47%;
+bottom: 0.71%;
+z-index: -1;
 
-  position: absolute;
-  width: 435px;
-  height: 42px;
-  left: 519px;
-  top: 1159px;
+/* Legendas - Regular */
 
-  /* H3 -Bold */
 
-  font-family: "roboto";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 16px;
+/* or 89% */
 
-  /* Dark 0 */
+text-align: center;
+letter-spacing: 0.4px;
 
-  color: #51504c;
+color: #FFFFFF;
+
+mix-blend-mode: normal;
 }
 
-.img-esq {
-  position: absolute;
-  left: 16.32%;
-  right: 65.1%;
-  top: 31.85%;
-  bottom: 61.16%;
-}
-.fundo1 {
-  /* Rectangle */
-  width: 88.8px;
-  height: 97px;
-  position: absolute;
-  left: 10px;
-  top: 1050px;
-  bottom: 64.47%;
+.foot-box{
+position: absolute;
+width: 1440px;
+height: 225px;
+left: 0px;
+top: 1476px;
 
-  /* Secondary -1 */
-
-  background: #fcac32;
-  box-shadow: 0px 32px 54px rgba(37, 138, 255, 0.224553);
-  border-radius: 10px;
-}
-
-.home1 {
-  width: 58px;
-  height: 60px;
-
-  position: absolute;
-  left: 25px;
-  top: 1063px;
-  bottom: 64.47%;
-}
-
-.text-1 {
-  /* Escolha um ponto de distribuição */
-
-  position: absolute;
-  height: 56px;
-  left: 10px;
-  top: 1160px;
-
-  /* Corpo - Regular */
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  /* or 117% */
-
-  letter-spacing: 0.444444px;
-
-  color: #000000;
-}
-
-.img-esq .text-2 {
-  position: absolute;
-  left: 10px;
-  top: 1220px;
-  bottom: 9.34%;
-
-  /* H5 - Regular */
-
-  font-family: "roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 120%;
-  /* or 24px */
-
-  /* Primary +1 */
-
-  color: #1396bf;
-}
-
-.arrow1 {
-  position: absolute;
-  width: 228.21px;
-  height: 75px;
-  left: 130px;
-  top: 1080px;
-}
-
-.fundo2 {
-  position: absolute;
-  left: 610px;
-  top: 1340px;
-  bottom: 64.47%;
-  box-shadow: rgba(37, 138, 255, 0.224553);
-}
-
-.laps1 {
-  position: absolute;
-  width: 88.8px;
-  height: 60px;
-  left: 610px;
-  top: 1360px;
-}
-
-.text-3 {
-  position: absolute;
-  height: 56px;
-  left: 610px;
-  top: 1445px;
-
-  /* Corpo - Regular */
-
-  font-family: "roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  /* or 117% */
-
-  letter-spacing: 0.444444px;
-
-  color: #000000;
-}
-
-.text-4 {
-  position: absolute;
-  width: 256px;
-  height: 103px;
-  left: 610px;
-  top: 1505px;
-
-  /* H5 - Regular */
-
-  font-family: "roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 120%;
-  /* or 24px */
-
-  /* Primary +1 */
-
-  color: #1396bf;
-}
-
-.arrow2 {
-  position: absolute;
-  width: 287.47px;
-  height: 173.35px;
-  left: 710px;
-  top: 1291px;
-}
-
-.fundo3 {
-  position: absolute;
-  left: 950px;
-  top: 1370px;
-  bottom: 51.84%;
-}
-
-.graduate {
-  position: absolute;
-  width: 58px;
-  height: 60px;
-  left: 1020px;
-  top: 1410px;
-}
-
-.text-5 {
-  position: absolute;
-  height: 28px;
-  left: 1005px;
-  top: 1499px;
-
-  /* Corpo - Regular */
-
-  font-family: "roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  /* identical to box height, or 117% */
-
-  letter-spacing: 0.444444px;
-
-  color: #000000;
-}
-
-.text-6 {
-  /* Leve o material até a escolha que escolheu e você fará um aluno muito mais feliz! */
-
-  position: absolute;
-  left: 1005px;
-  top: 1530px;
-
-  /* H5 - Regular */
-
-  font-family: "roboto";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 120%;
-  /* or 24px */
-
-  /* Primary +1 */
-
-  color: #1396bf;
+background: #51504C;
 }

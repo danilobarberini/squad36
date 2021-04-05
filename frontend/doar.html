@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Doar</title>
+</head>
+
+<body class="body-cadastro">
+    <nav>
+        <div class="cabecalho">
+            <img src="img/Logo.svg" class="logo-form" />
+            <p class="text-logo-branco">Fazendo o Bem</p>
+            <div class="menu">
+                <ul>
+                    <li><a href="landing-page.html">HOME</a></li>
+                    <li><a href="#">QUEM SOMOS</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+
+            </div>
+    </nav>
+    <div class="body-box"></div>
+    <div class="corpo-form">
+        <div class="subtitulo">
+            <p>
+            <h1>Olá, Doador!</p>
+            </h1></br>Falta pouco para você deixar um aluno feliz!<br>Preencha os campos ao lado e escolha um kit para
+            doar.</p>
+        </div>
+        <img class="mochila" src="img/ilustraçãodoador.svg">
+        <div class="form">
+            <p>
+            <form id="schoolForm">
+
+                <label for="kit">Escolha o kit que gostaria de doar</label><br>
+                <select id="kit">
+                    <option value="Selecione um kit para visualizar os itens."></option>
+                </select>
+                <div id="items-kit">Materiais inclusos no kit aparecerão aqui.</div>
+                <label for="qt">Quantidade de Kits</label><br>
+                <input type="number" id="qt" min="1" max="20"></input><br>
+                <label for="estado">Seu Estado</label><br>
+                <select id="estado">
+                    <option>São Paulo</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Amazonas</option>
+                </select><br>
+                <label for="cidade">Sua Cidade</label><br>
+                <select id="cidade">
+                    <option>São Paulo</option>
+                    <option>Santos</option>
+                    <option>Manaus</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Atalaia do Norte</option>
+                </select><br>
+                <label for="nearest">Escola mais próxima</label><br>
+                <select id="nearest"></select><br>
+                <input type="submit" id="enviar">Enviar</input>
+            </form>
+            </p>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+<script src="./scripts/doar.js"></script>
+
+<footer>
+    <span class="foot-box"></span>
+    <div class="direitos">
+        © 2021 Squad 36 - Programa de Formação FCamara<br>Todos os direitos reservados
+    </div>
+    <div class="socialmedia"><img src="./img/social mediasm.svg"></div>
+</footer>
+
+</html>

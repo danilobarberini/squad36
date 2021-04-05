@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Cadastro de Aluno</title>
+</head>
+
+<body class="body-cadastro">
+    <nav>
+        <div class="cabecalho">
+            <img src="img/Logo.svg" class="logo-form" />
+            <p class="text-logo-branco">Fazendo o Bem</p>
+            <div class="menu">
+                <ul>
+                    <li><a href="landing-page.html">HOME</a></li>
+                    <li><a href="#">QUEM SOMOS</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+
+            </div>
+    </nav>
+    <div class="body-box"></div>
+    <div class="corpo-form">
+        <div class="subtitulo">
+            <p>
+            <h1>Olá, Aluno!</p>
+            </h1></br>Preencha seus dados para solicitar material escolar.</p>
+        </div>
+        <img class="mochila" src="img/aluno-mochila.svg">
+        <div class="form">
+            <p>
+            <form id="userForm">
+                <label for="userName">Nome do Aluno</label><br>
+                <input type="text" id="userName"><br>
+                <label for="userAddress">Endereço</label><br>
+                <input type="text" id="userAddress"><br>
+                <label for="userPhone">Telefone</label><br>
+                <input type="text" id="userPhone"><br>
+                <label for="userReg">Numero de matrícula</label><br>
+                <input type="text" id="userReg"></input><br>
+                <label for="inst">Nome da instituição</label><br>
+                <select id="inst"></select><br>
+                <input type="submit" id="enviar">Enviar</input>
+            </form>
+            </p>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+<script src="./scripts/cadastrar-usuario.js"></script>
+
+<footer>
+    <span class="foot-box"></span>
+    <div class="direitos">
+        © 2021 Squad 36 - Programa de Formação FCamara<br>Todos os direitos reservados
+    </div>
+    <div class="socialmedia"><img src="./img/social mediasm.svg"></div>
+</footer>
+
+</html>
