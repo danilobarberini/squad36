@@ -19,4 +19,4 @@ app.get("*", (req, res) => {
 
 })
 
-app.listen(3333, () => console.log("Deu bom, meu brother"));
+app.listen(3333, () => console.log("Server is Running!"));
