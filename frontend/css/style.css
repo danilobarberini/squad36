@@ -33,7 +33,7 @@ background: #FFFFFF;
   left: 221px;
   top: 45px;
 
-  font-family: pecita;
+  font-family: "Pecita";
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -130,7 +130,8 @@ top: 227px;
   height: 78px;
   left: 30px;
   top: 32px;
-  font-family: Roboto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -215,8 +216,7 @@ a:hover {
 
 /* Background menu principal */
 .men {
-  
-  position: absolute;
+  position: absolute left;
   width: 1440px;
   height: 894px;
   left: 0px;
@@ -237,7 +237,8 @@ a:hover {
 
   /* H1 - Regular */
 
-  font-family: Roboto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 68px;
@@ -260,7 +261,8 @@ a:hover {
 
   /* Corpo - Regular */
 
-  font-family: Roboto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -323,7 +325,7 @@ a:hover {
 
 .point-dist {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 115px;
   left: 0px;
   top: 838px;
@@ -342,7 +344,7 @@ a:hover {
 
   /* H4 - Regular */
 
-  font-family: roboto;
+  font-family: "roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
