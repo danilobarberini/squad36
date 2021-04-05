@@ -27,6 +27,8 @@ Desenvolvido pela equipe do Squad 36 para o Programa de <strong>Formação da FC
 • Utilize o comando abaixo para instalar dependências do projeto<br><code>npm install</code></br>
 
 • Utilize o comando abaixo para instalar o ts-node-dev<br><code>npm install ts-node-dev -g</code></br>
+
+• Utilize o comando abaixo para criar o bando de dados<br><code>npm typeorm migration:run</code></br>
 </p>
 
 <h2 id="#utilizar">
