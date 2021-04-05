@@ -5,8 +5,19 @@ const name = document.getElementById("userName");
 const address = document.getElementById("userAddress");
 const phone = document.getElementById("userPhone");
 const registration = document.getElementById("userReg");
-const school = document.getElementById("userSchool");
+const school = document.getElementById("inst");
 
+
+
+axios.get("/schools").then((response) => {
+
+    response.data.forEach((option) => {
+        const docOption = document.createElement("option")
+        docOption.innerHTML = option.fantasia;
+        school.appendChild(docOption);
+    })
+
+})
 
 document.getElementById("enviar").addEventListener("click", function (event) {
     event.preventDefault();

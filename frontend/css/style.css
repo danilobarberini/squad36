@@ -427,14 +427,38 @@ a:hover {
   right: 0;
 }
 
-.footer{
-  
+.direitos {
+position: absolute;
+left: 35.07%;
+right: 32.5%;
+top: 96.47%;
+bottom: 0.71%;
+z-index: -1;
 
+/* Legendas - Regular */
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 16px;
+/* or 89% */
+
+text-align: center;
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
+
+.foot-box{
 position: absolute;
 width: 1440px;
 height: 225px;
 left: 0px;
-top: 1209px;
+top: 1476px;
 
 background: #51504C;
 }
