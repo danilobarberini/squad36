@@ -11,13 +11,14 @@
 <a href="#autores">Autores</a>
 </p>
 
-<h2>
-<p><strong>#Descrição</strong></br>
+<h2 id="descrição">
+<p><strong>Descrição</strong></br>
 </br>
 <strong>Fazendo o Bem</strong> é uma aplicação web criada com o intuito de ajudar pais e alunos de escolas estaduais e municipais à alcançar seus sonhos através do estudo.</br>
 Desenvolvido pela equipe do Squad 36 para o Programa de <strong>Formação da FCamara 2021</strong>.</p>
-
-<p><strong>#Instalar</strong></br>
+</h2>
+<h2 id="#instalar">
+<p><strong>Como Instalar</strong></br>
 
 1 - Baixe a versão mais recente do Node.js e instale: https://nodejs.org/en/download/ ;</br>
 
