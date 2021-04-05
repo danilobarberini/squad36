@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Cadastro de Aluno</title>
+    <title>Cadastro da Escola</title>
 </head>
 
 <body class="body-cadastro">
@@ -36,16 +36,24 @@
         <div class="form">
             <p>
             <form id="userForm">
-                <label for="userName">Nome do Aluno</label><br>
-                <input type="text" id="userName"><br>
-                <label for="userAddress">Endereço</label><br>
-                <input type="text" id="userAddress"><br>
-                <label for="userPhone">Telefone</label><br>
-                <input type="text" id="userPhone"><br>
-                <label for="userReg">Numero de matrícula</label><br>
-                <input type="text" id="userReg"></input><br>
-                <label for="userSchool">Nome da Instituição</label><br>
-                <input type="text" id="userSchool"></input><br>
+                <label for="userCNPJ">CNPJ</label><br>
+                <input type="text" id="CNPJ"><br>
+                <label for="school_name">Razão Social</label><br>
+                <input type="text" id="school_name"><br>
+                <label for="nome_fantasia">Nome Fantasia</label><br>
+                <input type="text" id="nome_fantasia"><br>
+                <label for="schoolAddress">Endereço</label><br>
+                <input type="text" id="schoolAddress"></input><br>
+                <label for="kit">Escolha o kit que precisa</label><br>
+                <select id="kits" name="cars">
+                    <option value="volvo">Kit Ensino Fundamental I</option>
+                    <option value="saab">Kit Ensino Fundamental II</option>
+                    <option value="fiat">Kit Ensino Médio</option>
+                </select>
+                <label for="qt">Quantidade de Kits</label><br>
+                <input type="number" id="qt" min="1" max="20"></input><br>
+                <label for="schoolPhone">Telefone</label><br>
+                <input type="text" id="schoolPhone"></input><br>
                 <input type="submit" id="enviar">Enviar</input>
             </form>
             </p>

@@ -6,12 +6,13 @@ import { SchoolRepository } from "../repositories/schoolRepository";
 class SchoolController {
 
     async create(request: Request, response: Response) {
-        const { id, name, address } = request.body;
+
+        const { CNPJ, razao, fantasia, address, kit, qt, phone } = request.body;
 
         const schoolRepository = getCustomRepository(SchoolRepository);
 
         const school = schoolRepository.create({
-            id, name, address
+            CNPJ, razao, fantasia, address, kit, qt, phone
         })
 
         await schoolRepository.save(school);

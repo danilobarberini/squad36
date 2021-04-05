@@ -9,15 +9,35 @@ export class createSchool1617488659688 implements MigrationInterface {
                 columns: [
                     {
                         name: "id",
-                        type: "varchar",
+                        type: "uuid",
                         isPrimary: true
                     },
                     {
-                        name: "name",
+                        name: "CNPJ",
+                        type: "varchar"
+                    },
+                    {
+                        name: "razao",
+                        type: "varchar"
+                    },
+                    {
+                        name: "fantasia",
                         type: "varchar"
                     },
                     {
                         name: "address",
+                        type: "varchar"
+                    },
+                    {
+                        name: "kit",
+                        type: "varchar"
+                    },
+                    {
+                        name: "qt",
+                        type: "varchar"
+                    },
+                    {
+                        name: "phone",
                         type: "varchar"
                     }
                 ]
