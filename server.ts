@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(router);
 app.use(express.static(path.join(__dirname, "frontend")));
-console.log(__dirname)
+
 
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "frontend", "landing-page.html"))

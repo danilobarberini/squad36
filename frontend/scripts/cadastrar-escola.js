@@ -1,5 +1,4 @@
 
-
 const CNPJ = document.getElementById("CNPJ");
 const razao = document.getElementById("razao");
 const fantasia = document.getElementById("fantasia");
@@ -9,6 +8,15 @@ const qt = document.getElementById("qt");
 const phone = document.getElementById("phone");
 
 
+axios.get("/years").then((response) => {
+
+    response.data.forEach((option) => {
+        const docOption = document.createElement("option")
+        docOption.innerHTML = option.name;
+        kit.appendChild(docOption);
+    })
+
+})
 
 document.getElementById("enviar").addEventListener("click", function (event) {
     event.preventDefault();
