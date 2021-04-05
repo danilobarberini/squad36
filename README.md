@@ -11,14 +11,14 @@
 <a href="#autores">Autores</a>
 </p>
 
-<h1><p>Descrição</h1></br>
-<strong><h2>Fazendo o Bem</strong></br>
-Fazendo o Bem é uma aplicação web criada com o intuito de ajudar pais e alunos de escolas estaduais e municipais à alcançar seus sonhos através do estudo.</br>
-Desenvolvido pela equipe do Squad 36 para o Programa de <strong>Formação da FCamara 2021</strong>.</p></h2>
+<h2>
+<p><strong>#Descrição</strong></br>
+</br>
+<strong>Fazendo o Bem</strong> é uma aplicação web criada com o intuito de ajudar pais e alunos de escolas estaduais e municipais à alcançar seus sonhos através do estudo.</br>
+Desenvolvido pela equipe do Squad 36 para o Programa de <strong>Formação da FCamara 2021</strong>.</p>
 
+<p><strong>#Instalar</strong></br>
 
-
- <p>
 1 - Baixe a versão mais recente do Node.js e instale: https://nodejs.org/en/download/ ;</br>
 
 2 - Clone o repositorio (dev ou main) para seu computador;</br>
@@ -35,3 +35,4 @@ Pode ser necessário utilizar o comando abaixo para instalar o ts-node globalmen
 
 7 - Utilize o comando abaixo <code>ts-node.cmd server.ts</code></br> Deve aparecer "Server is Running" no terminal.
 </p>
+</h2>
