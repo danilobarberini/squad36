@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: roboto;
+  font-family: "Roboto";
 }
 
 /* Menu principal */
@@ -18,7 +18,7 @@ body {
   left: 221px;
   top: 45px;
 
-  font-family: pecita;
+  font-family: "Pecita";
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -215,7 +215,7 @@ a:hover {
 
 .point-dist {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 115px;
   left: 0px;
   top: 838px;
@@ -234,7 +234,7 @@ a:hover {
 
   /* H4 - Regular */
 
-  font-family: roboto;
+  font-family: "roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -316,4 +316,231 @@ a:hover {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.como-fun {
+  /* Como funciona */
+
+  position: absolute;
+  width: 435px;
+  height: 42px;
+  left: 519px;
+  top: 1159px;
+
+  /* H3 -Bold */
+
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  /* Dark 0 */
+
+  color: #51504c;
+}
+
+.img-esq {
+  position: absolute;
+  left: 16.32%;
+  right: 65.1%;
+  top: 31.85%;
+  bottom: 61.16%;
+}
+.fundo1 {
+  /* Rectangle */
+  width: 88.8px;
+  height: 97px;
+  position: absolute;
+  left: 10px;
+  top: 1050px;
+  bottom: 64.47%;
+
+  /* Secondary -1 */
+
+  background: #fcac32;
+  box-shadow: 0px 32px 54px rgba(37, 138, 255, 0.224553);
+  border-radius: 10px;
+}
+
+.home1 {
+  width: 58px;
+  height: 60px;
+
+  position: absolute;
+  left: 25px;
+  top: 1063px;
+  bottom: 64.47%;
+}
+
+.text-1 {
+  /* Escolha um ponto de distribuição */
+
+  position: absolute;
+  height: 56px;
+  left: 10px;
+  top: 1160px;
+
+  /* Corpo - Regular */
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 117% */
+
+  letter-spacing: 0.444444px;
+
+  color: #000000;
+}
+
+.img-esq .text-2 {
+  position: absolute;
+  left: 10px;
+  top: 1220px;
+  bottom: 9.34%;
+
+  /* H5 - Regular */
+
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  /* or 24px */
+
+  /* Primary +1 */
+
+  color: #1396bf;
+}
+
+.arrow1 {
+  position: absolute;
+  width: 228.21px;
+  height: 75px;
+  left: 130px;
+  top: 1080px;
+}
+
+.fundo2 {
+  position: absolute;
+  left: 610px;
+  top: 1340px;
+  bottom: 64.47%;
+  box-shadow: rgba(37, 138, 255, 0.224553);
+}
+
+.laps1 {
+  position: absolute;
+  width: 88.8px;
+  height: 60px;
+  left: 610px;
+  top: 1360px;
+}
+
+.text-3 {
+  position: absolute;
+  height: 56px;
+  left: 610px;
+  top: 1445px;
+
+  /* Corpo - Regular */
+
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 117% */
+
+  letter-spacing: 0.444444px;
+
+  color: #000000;
+}
+
+.text-4 {
+  position: absolute;
+  width: 256px;
+  height: 103px;
+  left: 610px;
+  top: 1505px;
+
+  /* H5 - Regular */
+
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  /* or 24px */
+
+  /* Primary +1 */
+
+  color: #1396bf;
+}
+
+.arrow2 {
+  position: absolute;
+  width: 287.47px;
+  height: 173.35px;
+  left: 710px;
+  top: 1291px;
+}
+
+.fundo3 {
+  position: absolute;
+  left: 950px;
+  top: 1370px;
+  bottom: 51.84%;
+}
+
+.graduate {
+  position: absolute;
+  width: 58px;
+  height: 60px;
+  left: 1020px;
+  top: 1410px;
+}
+
+.text-5 {
+  position: absolute;
+  height: 28px;
+  left: 1005px;
+  top: 1499px;
+
+  /* Corpo - Regular */
+
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+
+  letter-spacing: 0.444444px;
+
+  color: #000000;
+}
+
+.text-6 {
+  /* Leve o material até a escolha que escolheu e você fará um aluno muito mais feliz! */
+
+  position: absolute;
+  left: 1005px;
+  top: 1530px;
+
+  /* H5 - Regular */
+
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: justify;
+  /* or 24px */
+
+  /* Primary +1 */
+
+  color: #1396bf;
 }
