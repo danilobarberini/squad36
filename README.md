@@ -1,22 +1,23 @@
-<h1>Programa de Formação 2021 da FCamara - SQUAD 36</h1>
+<p><img src="https://github.com/danilobarberini/squad36/blob/main/frontend/img/Logo.svg" align="left"></p>
+           <h1 align="center">Fazendo o Bem<br>
+           SQUAD 36</h1>
 
-<h2><strong>
-           <p>Integrantes Squad 36</br>
-           </br>
-           UXs:</br>
-           Lidiane Fernandes</br>
-           Suelen Amaral</br>
-           </br>
-           Devs:</br>
-           Danilo Barberini</br>
-           Vinicius Moura</br>
-           Jhol Moreira Mendanha</br>
-           </br>
-          
- </strong></h2></p>
- 
- <strong><h2><p>Instruções para uso da API</br></br></strong></p>
- 
+<p align="center">
+<a href="#descrição">Descrição</a> •
+<a href="#instalar">Como instalar</a> • 
+<a href="#utilizar">Como utilizar</a> •
+<a href="#tecnologias">Tecnologias</a> • 
+<a href="#licenc-a">Licença</a> • 
+<a href="#autores">Autores</a>
+</p>
+
+<h1><p>Descrição</h1></br>
+<strong><h2>Fazendo o Bem</strong></br>
+Fazendo o Bem é uma aplicação web criada com o intuito de ajudar pais e alunos de escolas estaduais e municipais à alcançar seus sonhos através do estudo.</br>
+Desenvolvido pela equipe do Squad 36 para o Programa de <strong>Formação da FCamara 2021</strong>.</p></h2>
+
+
+
  <p>
 1 - Baixe a versão mais recente do Node.js e instale: https://nodejs.org/en/download/ ;</br>
 
