@@ -35,7 +35,7 @@
         <img class="mochila" src="img/aluno-mochila.svg">
         <div class="form">
             <p>
-            <form class="cadastro-aluno">
+            <form id="userForm">
                 <label for="userName">Nome do Aluno</label><br>
                 <input type="text" id="userName"><br>
                 <label for="userAddress">Endereço</label><br>
@@ -46,23 +46,14 @@
                 <input type="text" id="userReg"></input><br>
                 <label for="userSchool">Nome da Instituição</label><br>
                 <input type="text" id="userSchool"></input><br>
+                <input type="submit" id="enviar">Enviar</input>
             </form>
             </p>
         </div>
     </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
-<footer>
-    <div>
-        <span class="footer">
-            <img src="img/Logo.svg">
-            <p class="text-logo-branco">Fazendo o Bem</p>
-        </span>
-
-    </div>
-</footer>
-<script>
-
-</script>
+<script src="./scripts/cadastrar-usuario.js"></script>
 
 </html>

@@ -6,12 +6,12 @@ import { UsersRepository } from "../repositories/usersRepository";
 class UserController {
 
     async create(request: Request, response: Response) {
-        const { name, phone, registration, school_name, year, created_at } = request.body;
+        const { name, phone, registration, school_name, created_at } = request.body;
 
         const usersRepository = getCustomRepository(UsersRepository);
 
         const user = usersRepository.create({
-            name, phone, registration, school_name, year, created_at
+            name, phone, registration, school_name, year: "0", created_at
         })
 
         await usersRepository.save(user);
