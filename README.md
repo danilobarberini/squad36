@@ -1,5 +1,5 @@
 <p><img src="https://github.com/danilobarberini/squad36/blob/main/frontend/img/Logo.svg" align="left"></p>
-           <h1 align="center"><span style="color:#DE8A0D">Fazendo o Bem</span><br>Squad 36</h1>
+           <h1 align="center">Fazendo o Bem<br>Squad 36</h1>
 
 <p align="center">
 <a href="#descrição">Descrição</a> •
@@ -11,7 +11,7 @@
 
 <h2 id="descrição"><p><strong>Descrição</strong></br></h2>
 
-<strong style="color:#DE8A0D">Fazendo o Bem</strong> é uma aplicação web criada com o intuito de ajudar pais e alunos de escolas estaduais e municipais à alcançar seus sonhos através do estudo.</br>
+<strong>Fazendo o Bem</strong> é uma aplicação web criada com o intuito de ajudar pais e alunos de escolas estaduais e municipais à alcançar seus sonhos através do estudo.</br>
 Desenvolvido pela equipe do Squad 36 para o Programa de <strong>Formação da FCamara 2021</strong>.</p>
 
 
@@ -46,21 +46,21 @@ Desenvolvido pela equipe do Squad 36 para o Programa de <strong>Formação da FC
 <h2 id="tecnologias">
 <p><strong>Tecnologias</h2></strong>
 
-• <a href="https://nodejs.org/en/">Node.js</a><br>
-• <a href="https://expressjs.com/pt-br/">Express</a><br>
-• <a href="https://github.com/axios/axios">Axios</a><br>
-• <a href="https://www.sqlite.org/index.html">SQLite3</a><br>
-• <a href="https://www.typescriptlang.org/">TypeScript</a><br>
-• <a href="https://typeorm.io/">TypeORM</a><br>
-• <a href="https://www.npmjs.com/package/ts-node">ts-node</a><br>
+• <a href="https://nodejs.org/en/">Node.js </a><img src="https://img.shields.io/npm/l/nodejs"><br>
+• <a href="https://expressjs.com/pt-br/">Express </a><img src="https://img.shields.io/npm/l/express"><br>
+• <a href="https://github.com/axios/axios">Axios </a><img src="https://img.shields.io/npm/l/axios"><br>
+• <a href="https://www.sqlite.org/index.html">SQLite3 </a><img src="https://img.shields.io/npm/l/sqlite3"><br>
+• <a href="https://www.typescriptlang.org/">TypeScript </a><img src="https://img.shields.io/npm/l/typescript"><br>
+• <a href="https://typeorm.io/">TypeORM </a><img src="https://img.shields.io/npm/l/typeorm"><br>
+• <a href="https://www.npmjs.com/package/ts-node">ts-node </a><img src="https://img.shields.io/npm/l/ts-node"><br>
 
 <h2 id="autores">
 <p><strong>Autores</h2></strong>
 
-<strong><span style="color:#DE8A0D">User Experience:</span></strong></br>
+<strong>User Experience:</span></strong></br>
 • Lidiane Fernandes<br>
 • Suelen Amaral<br></br>
-<strong><span style="color:#DE8A0D">Desenvolvedores:</strong></span></br>
+<strong>Desenvolvedores:</strong></span></br>
 • Danilo Barberini<br>
 • Jhol Moreira Mendanha<br>
 • Vinicius Moura<br>
